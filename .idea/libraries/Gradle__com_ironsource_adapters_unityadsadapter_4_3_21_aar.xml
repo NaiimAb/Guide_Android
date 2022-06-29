@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ironsource.adapters:unityadsadapter:4.3.21@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/499c9892dc247eeb1d31b8eaab6d3c30/transformed/jetified-unityadsadapter-4.3.21/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/499c9892dc247eeb1d31b8eaab6d3c30/transformed/jetified-unityadsadapter-4.3.21/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/499c9892dc247eeb1d31b8eaab6d3c30/transformed/jetified-unityadsadapter-4.3.21/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

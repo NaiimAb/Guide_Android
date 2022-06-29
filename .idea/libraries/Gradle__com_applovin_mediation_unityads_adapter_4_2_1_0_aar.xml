@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applovin.mediation:unityads-adapter:4.2.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/89abd7e1f39cbd00609698e19af1d641/transformed/jetified-unityads-adapter-4.2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0901b40db51c11681a69ecc15c8f63d7/transformed/jetified-unityads-adapter-4.2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0901b40db51c11681a69ecc15c8f63d7/transformed/jetified-unityads-adapter-4.2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0901b40db51c11681a69ecc15c8f63d7/transformed/jetified-unityads-adapter-4.2.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applovin.mediation/unityads-adapter/4.2.1.0/92d9a54b67ca35678d4119ab0a5822c23d19627c/unityads-adapter-4.2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

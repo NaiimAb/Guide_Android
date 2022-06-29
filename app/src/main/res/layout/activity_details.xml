@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailsRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Details"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Title"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageIV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleTV"
+                android:layout_marginTop="10dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:id="@+id/nativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/imageIV"
+                android:orientation="horizontal" />
+
+
+            <TextView
+                android:id="@+id/textTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_below="@+id/nativeLayout"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/linkBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textTV"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="Link" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

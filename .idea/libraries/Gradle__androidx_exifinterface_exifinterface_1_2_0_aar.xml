@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.exifinterface:exifinterface:1.2.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fbcd79dbf7794636a48cb6b31e3ef37f/transformed/exifinterface-1.2.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c50ae6f35fbc964492c1db9ac5b255a5/transformed/exifinterface-1.2.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79a072f895918eedb8635e6ae03f2113/exifinterface-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c785e15ccfda2fad088534e6d0e30120/transformed/exifinterface-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/53536e5a7bf5c89ee2648b06275997d4/transformed/exifinterface-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fbcd79dbf7794636a48cb6b31e3ef37f/transformed/exifinterface-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fbcd79dbf7794636a48cb6b31e3ef37f/transformed/exifinterface-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fbcd79dbf7794636a48cb6b31e3ef37f/transformed/exifinterface-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bea62fc98aacc009dd2b5d21900a28fe/transformed/exifinterface-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c50ae6f35fbc964492c1db9ac5b255a5/transformed/exifinterface-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c50ae6f35fbc964492c1db9ac5b255a5/transformed/exifinterface-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c50ae6f35fbc964492c1db9ac5b255a5/transformed/exifinterface-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.exifinterface/exifinterface/1.2.0/cae89dd2d8af4160feaed1a42933db7ccf0002d7/exifinterface-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

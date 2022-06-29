@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirstGuide</string>
+    <string name="hello_guide">Hello Guide</string>
+    <string name="let_s_start">Let\'s Start</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="more_apps">More Apps</string>
+    <string name="start">Start</string>
+</resources>

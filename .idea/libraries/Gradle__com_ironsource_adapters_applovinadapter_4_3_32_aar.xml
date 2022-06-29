@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ironsource.adapters:applovinadapter:4.3.32@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d31f1c05f1e622c0e6dfdf4508235f28/transformed/jetified-applovinadapter-4.3.32/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d31f1c05f1e622c0e6dfdf4508235f28/transformed/jetified-applovinadapter-4.3.32/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d31f1c05f1e622c0e6dfdf4508235f28/transformed/jetified-applovinadapter-4.3.32/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

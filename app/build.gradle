@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+apply plugin: 'applovin-quality-service'
+
+applovin {
+    apiKey "Eu-7B5n4lzOU9pWVeVbde--OwfHOlOHpB8FJAAJvUnoTl8D7VELI157ABQIPBwi5lN1S3GGVzul71lLvXMHKbJ"
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "31.0.0"
+
+    defaultConfig {
+        applicationId "com.naiimab.firstguide"
+        minSdkVersion 19
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    maven {
+        url 'https://android-sdk.is.com/'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+    implementation 'com.google.android.gms:play-services-ads:21.0.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.applovin:applovin-sdk:+'
+
+
+    implementation 'com.applovin.mediation:google-adapter:+'
+    implementation 'com.applovin.mediation:facebook-adapter:+'
+    implementation 'com.applovin.mediation:unityads-adapter:+'
+
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
+    implementation 'com.facebook.android:audience-network-sdk:6.11.0'
+    implementation 'com.google.ads.mediation:facebook:6.11.0.0'
+
+    implementation 'com.ironsource.sdk:mediationsdk:7.2.2.1'
+    // Add AdMob and Ad Manager Network
+    implementation 'com.google.android.gms:play-services-ads:20.6.0'
+    implementation 'com.ironsource.adapters:admobadapter:4.3.28'
+// Add Applovin Network
+    implementation 'com.ironsource.adapters:applovinadapter:4.3.32'
+    implementation 'com.applovin:applovin-sdk:11.4.2'
+// Add Facebook Network
+    implementation 'com.ironsource.adapters:facebookadapter:4.3.36'
+    implementation 'com.facebook.android:audience-network-sdk:6.11.0'
+// Add UnityAds Network
+    implementation 'com.ironsource.adapters:unityadsadapter:4.3.21'
+    implementation 'com.unity3d.ads:unity-ads:4.1.0'
+
+}

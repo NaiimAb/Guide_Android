@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naiimab.firstguide">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="*" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".MyApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <meta-data android:name="applovin.sdk.key"
+            android:value="Fip8wAs1DUMFJtfZDOTShkKGGCETlok_VX7Ph-RwTo9nfpKtCpJuWe8orNKaA3Zfah4HgVB8HLwy8FqL27EZnN"/>
+
+        <activity android:name=".activities.Details" />
+        <activity android:name=".activities.GuideList" />
+        <activity android:name=".activities.SecActivity" />
+
+        <activity android:name=".activities.SplashScreen"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.ThirdActivity" />
+    </application>
+
+</manifest>
